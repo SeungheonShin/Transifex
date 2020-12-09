@@ -1,1 +1,17 @@
-# Transifex
+# About the project
+본 프로젝트에서는 번역 플랫폼 Transifex에 등록되어있는 XBlocks 프로젝트 전체를 영어에서 한국어(ko_KR)로 번역한다.
+
+## 번역 방법
+해당 프로젝트의 .po파일(GNU gettext 시스템 등에 사용되는 text-based 파일)을 다운로드 받아 텍스트 에디터로 수정 한 뒤,
+번역한 파일을 업로드하여 프로젝트에 반영한다. 번역 할 때마다 상시 업데이트를 원칙으로 한다.
+
+## 프로젝트 진행 전 번역 현황
+
+## Contact
+신승헌 - gody8756@ajou.ac.kr
+
+Project link: https://github.com/SeungheonShin/Transifex/
+
+
+## Reference
+* [PO file format - Transifex](https://docs.transifex.com/formats/gettext)
