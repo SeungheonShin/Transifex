@@ -132,7 +132,7 @@ msgid ""
 "feedback only after a learner drops all available items on target zones."
 msgstr ""
 "표준 모드: 학습자가 목표 영역에 각 항목을 드롭 할 때마다 즉각적으로 "
-"피드백을 제공합니다. 평가 모드: 학습자가 모든 이용가능한 항목을 목표 ""
+"피드백을 제공합니다. 평가 모드: 학습자가 모든 이용가능한 항목을 목표 "
 "영역에 드롭했을 때만 피드백을 제공합니다."
 
 #: drag_and_drop_v2.py:91
