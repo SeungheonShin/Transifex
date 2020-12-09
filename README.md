@@ -7,6 +7,9 @@
 
 ## 프로젝트 진행 전 번역 현황
 
+<img src="https://user-images.githubusercontent.com/75475398/101598438-81cb5500-3a3b-11eb-8a65-5afe9756c4fe.PNG" width="70%" height="70%"> 
+<img src="https://user-images.githubusercontent.com/75475398/101598444-82fc8200-3a3b-11eb-9b23-f93dbe245b62.PNG" width="70%" height="70%"> 
+
 ## Contact
 신승헌 - gody8756@ajou.ac.kr
 
