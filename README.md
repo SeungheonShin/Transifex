@@ -18,7 +18,7 @@ TTA 정보통신 용어사전, KS용어사전, 국립국어원 대사전에 등�
 * [국립국어원대사전](https://stdict.korean.go.kr/main/main.do)
 * [오픈소스SW 논의 파일](https://docs.google.com/spreadsheets/d/1Pxd9y3i8nQHrVwfhQPu-YgTATxsXnGr00-B1Hc5H0lY/edit?usp=sharing)
 
-프로젝트 진행에 지속적으로 참고해야할 단어들은 [standrad_translation.csv](https://github.com/SeungheonShin/Transifex-XBlocks/edit/main/standrad_translation.csv) 파일에 기록하여 이후 번역에 참고한다.
+프로젝트 진행에 지속적으로 참고해야할 단어들은 [standrad_translation.csv](https://github.com/SeungheonShin/Transifex-XBlocks/blob/main/standard_translation.csv) 파일에 기록하여 이후 번역에 참고한다.
 
 ## Contact
 신승헌 - gody8756@ajou.ac.kr
