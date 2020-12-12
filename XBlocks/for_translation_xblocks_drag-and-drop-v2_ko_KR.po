@@ -529,11 +529,11 @@ msgstr "닫기"
 
 #: public/js/drag_and_drop.js:315 public/js/drag_and_drop.js:548
 msgid "Keyboard Help"
-msgstr "키보드 도움말"
+msgstr "키보드 도움"
 
 #: public/js/drag_and_drop.js:318
 msgid "This is a screen reader-friendly problem."
-msgstr ""
+msgstr "이 문제는 화면 이용자에게 적합한 문제입니다."
 
 #: public/js/drag_and_drop.js:319
 msgid ""
@@ -541,68 +541,79 @@ msgid ""
 "should select a draggable item with their keyboard and then navigate to an "
 "appropriate dropzone to drop it."
 msgstr ""
+"끌어놓기 문제는 끌기 가능한 항목들과 놓기 영역으로 이루어져 있습니다. 사용자는 "
+"끌기 가능한 아이템을 키보드로 선택해서 적절한 "
+"놓기 영역으로 이동시켜야 합니다."
 
 #: public/js/drag_and_drop.js:320
 msgid ""
 "You can complete this problem using only your keyboard by following the "
 "guidance below:"
 msgstr ""
+"다음 가이드라인을 따르면 키보드만 사용해서 문제를 해결할 수 있습니다:"
 
 #: public/js/drag_and_drop.js:322
 msgid ""
 "Use only TAB and SHIFT+TAB to navigate between draggable items and drop "
 "zones."
 msgstr ""
+"TAB 또는 SHIFT+TAB을 사용하여 끌기 가능한 항목과 놓기 영역을 넘나드세요."
 
 #: public/js/drag_and_drop.js:323
 msgid "Press CTRL+M to select a draggable item (effectively picking it up)."
-msgstr ""
+msgstr "CTRL+M을 눌러 끌기 가능한 항목을 선택하세요 (효율적으로 집기)."
 
 #: public/js/drag_and_drop.js:324
 msgid ""
 "Navigate using TAB and SHIFT+TAB to the appropriate dropzone and press "
 "CTRL+M once more to drop it here."
 msgstr ""
+"TAB과 SHIFT+TAB을 사용하여 적절한 놓기 영역으로 가져다 놓은 뒤 "
+"CTRL+M을 한번 더 눌러 항목을 놓으세요."
 
 #: public/js/drag_and_drop.js:325
 msgid ""
 "Press ESC if you want to cancel the drop operation (for example, to select a"
 " different item)."
 msgstr ""
+"놓기 조작을 취소하고 싶다면 ESC를 누르세요 (예를 들어, 다른 항목을 "
+" 선택하기 위해)."
 
 #: public/js/drag_and_drop.js:326
 msgid ""
 "TAB back to the list of draggable items and repeat this process until all of"
 " the draggable items have been placed on their respective dropzones."
 msgstr ""
+"TAB을 하여 끌기 가능한 항목의 목록으로 돌아가고 이 과정을 모든 끌기 가능한 항목들을"
+" 각각의 놓기 영역으로 옮길 때까지 반복하세요."
 
 #: public/js/drag_and_drop.js:344
 msgid "You have used {used} of {total} attempts."
-msgstr ""
+msgstr "당신은 {total}번의 시도 중 {used}만큼 사용했습니다."
 
 #: public/js/drag_and_drop.js:366
 msgid "Submit"
-msgstr ""
+msgstr "제출"
 
 #: public/js/drag_and_drop.js:406
 msgid "Show Answer"
-msgstr ""
+msgstr "정답 보기"
 
 #: public/js/drag_and_drop.js:419
 msgid "Go to Beginning"
-msgstr ""
+msgstr "처음으로 가기"
 
 #: public/js/drag_and_drop.js:425
 msgid "Reset"
-msgstr ""
+msgstr "초기화"
 
 #: public/js/drag_and_drop.js:445 public/js/drag_and_drop.js:1184
 msgid "Some of your answers were not correct."
-msgstr ""
+msgstr "몇개의 답변이 틀렸습니다."
 
 #: public/js/drag_and_drop.js:446 public/js/drag_and_drop.js:1187
 msgid "Hints:"
-msgstr ""
+msgstr "힌트:"
 
 #: public/js/drag_and_drop.js:514
 msgid "Correct"
@@ -619,7 +630,7 @@ msgstr "오답"
 #: public/js/drag_and_drop.js:563
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] ""
+msgstr[0] "{earned}/{possible}점 (채점됨)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -628,25 +639,25 @@ msgstr[0] ""
 #: public/js/drag_and_drop.js:570
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] ""
+msgstr[0] "{earned}/{possible}점 (미채점됨)"
 
 #. Translators: {possible} is the number of points possible (examples: 1, 3,
 #. 10).
 #: public/js/drag_and_drop.js:580
 msgid "{possible} point possible (graded)"
 msgid_plural "{possible} points possible (graded)"
-msgstr[0] ""
+msgstr[0] "{possible}점 가능함 (채점됨)"
 
 #. Translators: {possible} is the number of points possible (examples: 1, 3,
 #. 10).
 #: public/js/drag_and_drop.js:587
 msgid "{possible} point possible (ungraded)"
 msgid_plural "{possible} points possible (ungraded)"
-msgstr[0] ""
+msgstr[0] "{possible}점 가능함 (미채점됨)"
 
 #: public/js/drag_and_drop.js:613
 msgid "Drag and Drop Problem"
-msgstr ""
+msgstr "끌어놓기 문제"
 
 #: public/js/drag_and_drop.js:615
 msgid "Problem"
@@ -654,41 +665,41 @@ msgstr "문제"
 
 #: public/js/drag_and_drop.js:640
 msgid "Item Bank"
-msgstr ""
+msgstr "항목 창고"
 
 #: public/js/drag_and_drop.js:686
 msgid "Drop Targets"
-msgstr ""
+msgstr "놓기 목표"
 
 #: public/js/drag_and_drop.js:699
 msgid "Actions"
-msgstr ""
+msgstr "행동"
 
 #: public/js/drag_and_drop.js:849
 msgid "An error occurred. Unable to load drag and drop problem."
-msgstr ""
+msgstr "오류가 생겼습니다. 끌어놓기 문제를 불러올 수 없습니다."
 
 #: public/js/drag_and_drop.js:1309
 msgid "You cannot add any more items to this zone."
-msgstr ""
+msgstr "이 영역에는 더이상 항목을 추가할 수 없습니다."
 
 #: public/js/drag_and_drop_edit.js:108 public/js/drag_and_drop_edit.js:494
 #: public/js/drag_and_drop_edit.js:720
 msgid "There was an error with your form."
-msgstr ""
+msgstr "형식에 오류가 있습니다."
 
 #: public/js/drag_and_drop_edit.js:109
 msgid "Please check over your submission."
-msgstr ""
+msgstr "제출물을 확인하세요."
 
 #: public/js/drag_and_drop_edit.js:344
 msgid "Zone {num}"
 msgid_plural "Zone {num}"
-msgstr[0] ""
+msgstr[0] "{num}번 영역"
 
 #: public/js/drag_and_drop_edit.js:495
 msgid "Please check the values you entered."
-msgstr ""
+msgstr "입력한 값을 확인하세요."
 
 #: public/js/drag_and_drop_edit.js:713
 msgid "Saving"

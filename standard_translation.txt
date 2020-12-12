@@ -2,3 +2,4 @@ drag and drop,끌어놓기
 drag,끌기
 drop,놓기
 item,항목
+hint,힌트
