@@ -449,15 +449,15 @@ msgstr "최종 시도가 사용되었으며, 최고 점수는 {score} 입니다"
 #, python-brace-format
 msgid "Correctly placed {correct_count} item."
 msgid_plural "Correctly placed {correct_count} items."
-msgstr[0] "성공적으로 {correct_count}개의 항목을 배치했습니다."
-msgstr[1] "성공적으로 {correct_count}개의 항목들을 배치했습니다."
+msgstr[0] "{correct_count}개의 항목이 알맞게 배치되었습니다."
+msgstr[1] "{correct_count}개의 항목들이 알맞게 배치되었습니다."
 
 #: utils.py:66
 #, python-brace-format
 msgid "Misplaced {misplaced_count} item."
 msgid_plural "Misplaced {misplaced_count} items."
-msgstr[0] "{misplaced_count}개의 항목을 잘못 배치했습니다."
-msgstr[1] "{misplaced_count}개의 항목들을 잘못 배치했습니다."
+msgstr[0] "{misplaced_count}개의 항목이 잘못 배치되었습니다."
+msgstr[1] "{misplaced_count}개의 항목들이 잘못 배치되었습니다."
 
 #: utils.py:77
 #, python-brace-format
@@ -469,7 +469,7 @@ msgid_plural ""
 msgstr[0] ""
 "{misplaced_count}개의 항목을 잘못 배치했습니다. 잘못 배치된 항목이 항목 창고로 이동되었습니다."
 msgstr[1] ""
-"{misplaced_count}개의 항목을 잘못 배치했습니다. 잘못 배치된 항목이 항목들이 창고로 이동되었습니다."
+"{misplaced_count}개의 항목을 잘못 배치했습니다. 잘못 배치된 항목들이 항목 창고로 이동되었습니다."
 
 #: utils.py:88
 #, python-brace-format
@@ -504,11 +504,11 @@ msgstr ", 끌기 가능"
 
 #: public/js/drag_and_drop.js:232
 msgid "No items placed here"
-msgstr "항목이 배치되어 있지 않습니다"
+msgstr "항목이 배치되어 있지 않음"
 
 #: public/js/drag_and_drop.js:238
 msgid "Items placed here: "
-msgstr "다음의 항목이 배치되어 있습니다:"
+msgstr "다음의 항목들이 배치되어 있음:"
 
 #: public/js/drag_and_drop.js:268
 msgid ", dropzone"
@@ -593,7 +593,7 @@ msgstr "당신은 {total}번의 시도 중 {used}만큼 사용했습니다."
 
 #: public/js/drag_and_drop.js:366
 msgid "Submit"
-msgstr "제출"
+msgstr "제출하기"
 
 #: public/js/drag_and_drop.js:406
 msgid "Show Answer"
@@ -703,4 +703,4 @@ msgstr "입력한 값을 확인하세요."
 
 #: public/js/drag_and_drop_edit.js:713
 msgid "Saving"
-msgstr "저장중"
+msgstr "저장 중"

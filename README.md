@@ -40,7 +40,11 @@ msgid "Show Answer"
 msgstr "정답 보기"
 ```
 ## 번역 규칙-예외
-
+* 문장이 마침표로 끝나지 않는 경우 경어체가 아닌 '~함' 또는 명사로 번역한다.
+```
+msgid "Correctly placed in: {zone_title}"
+msgstr "{zone_title}에 알맞게 배치되어 있음"
+```
 ## Contact
 신승헌 - gody8756@ajou.ac.kr
 

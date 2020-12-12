@@ -3,3 +3,4 @@ drag,끌기
 drop,놓기
 item,항목
 hint,힌트
+image,이미지
