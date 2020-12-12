@@ -18,7 +18,28 @@ TTA 정보통신 용어사전, KS용어사전, 국립국어원 대사전에 등�
 * [국립국어원대사전](https://stdict.korean.go.kr/main/main.do)
 * [오픈소스SW 논의 파일](https://docs.google.com/spreadsheets/d/1Pxd9y3i8nQHrVwfhQPu-YgTATxsXnGr00-B1Hc5H0lY/edit?usp=sharing)
 
-프로젝트 진행에 지속적으로 참고해야할 단어들은 [standrad_translation.csv](https://github.com/SeungheonShin/Transifex-XBlocks/blob/main/standard_translation.csv) 파일에 기록하여 이후 번역에 참고한다.
+프로젝트 진행에 지속적으로 참고해야할 단어들은 [standrad_translation.txt](https://github.com/SeungheonShin/Transifex-XBlocks/blob/main/standard_translation.txt) 파일에 기록하여 이후 번역에 참고한다.
+
+## 번역 규칙
+본 프로젝트는 다음과 같이 정한 규칙을 따라 번역하며, 예외적인 부분(문맥 상 특수한 다른 뜻이 필요할 경우 등) 발생 시 commit comment에 작성 후 예외 항목에서 추가적인 규칙을 다룬다.
+
+
+* 평서문: 해당 API(XBlocks)가 학습을 위해 만들어진 교육 플랫폼에 사용되므로 이를 고려하여 경어체(~합니다, ~하세요)로 번역한다. 
+```
+msgid "Drag the items onto the image above."
+msgstr "사진 위로 항목을 끌어다 놓으세요."
+```
+* 의문문: 경어체(~합니까?)를 사용한다.
+```
+msgid "Display the title to the learner?"
+msgstr "학습자에게 제목을 표시합니까?"
+```
+* 명령문: 특정 행동에 대한 설명을 할 때 명령문이 사용되므로 '~하기'로 번역하여 사용자가 자연스럽게 이해할 수 있도록 한다.
+```
+msgid "Show Answer"
+msgstr "정답 보기"
+```
+## 번역 규칙-예외
 
 ## Contact
 신승헌 - gody8756@ajou.ac.kr
