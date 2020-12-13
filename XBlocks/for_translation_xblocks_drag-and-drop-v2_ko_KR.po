@@ -311,7 +311,7 @@ msgstr "배경 이미지"
 
 #: templates/html/drag_and_drop_edit.html:98
 msgid "Provide custom image"
-msgstr "커스텀 이미지를 제공하기"
+msgstr "사용자 정의 이미지를 제공하기"
 
 #: templates/html/drag_and_drop_edit.html:102
 msgid "Generate image automatically"

@@ -4,3 +4,7 @@ drop,놓기
 item,항목
 hint,힌트
 image,이미지
+custom,사용자 정의
+page,페이지
+inline,인라인
+modal window,모달 윈도
