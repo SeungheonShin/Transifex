@@ -6,5 +6,7 @@ hint,힌트
 image,이미지
 custom,사용자 정의
 page,페이지
-inline,인라인
-modal window,모달 윈도
+inline,인라인(현재 페이지 또는 윈도우에서 상호동작의 결과를 표시함)
+modal window,모달 창(부모 윈도로 돌아가기 전에 사용자의 상호동작을 요구하는 자식 윈도 창)
+third party,타사
+viewport,뷰포트(웹페이지가 사용자에게 보여지는 영역)

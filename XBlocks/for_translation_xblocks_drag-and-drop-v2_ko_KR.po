@@ -355,7 +355,7 @@ msgstr "영역 크기"
 
 #: templates/html/drag_and_drop_edit.html:144
 msgid "Zone width"
-msgstr "영역 넓이"
+msgstr "영역 너비"
 
 #: templates/html/drag_and_drop_edit.html:152
 msgid "Zone height"
