@@ -389,11 +389,11 @@ msgstr ""
 
 #: templates/html/drag_and_drop_edit.html:180
 msgid "Zone labels"
-msgstr "영역 라벨"
+msgstr "영역 레이블"
 
 #: templates/html/drag_and_drop_edit.html:183
 msgid "Display label names on the image"
-msgstr "이미지에 라벨 이름을 표시하기"
+msgstr "이미지에 레이블 이름을 표시하기"
 
 #: templates/html/drag_and_drop_edit.html:187
 msgid "Zone borders"
