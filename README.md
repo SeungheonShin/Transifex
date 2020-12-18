@@ -45,6 +45,11 @@ msgstr "정답 보기"
 msgid "Correctly placed in: {zone_title}"
 msgstr "{zone_title}에 알맞게 배치되어 있음"
 ```
+* 문장이 어떤 기능에 대한 설명인 경우 마침표로 끝나지 않더라도 '~합니다'라고 번역하여 사용자가 설명을 자연스럽게 이해하도록 한다.
+```
+msgid "Toggles if numeric values are displayed"
+msgstr "숫자로 된 값이 표시되는 지의 여부를 전환합니다"
+```
 ## Contact
 신승헌 - gody8756@ajou.ac.kr
 

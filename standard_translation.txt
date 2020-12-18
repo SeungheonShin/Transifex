@@ -1,4 +1,5 @@
 drag and drop,끌어놓기
+question,문제(질문에서 수정)
 drag,끌기
 drop,놓기
 item,항목
@@ -10,3 +11,7 @@ inline,인라인(현재 페이지 또는 윈도우에서 상호동작의 결과�
 modal window,모달 창(부모 윈도로 돌아가기 전에 사용자의 상호동작을 요구하는 자식 윈도 창)
 third party,타사
 viewport,뷰포트(웹페이지가 사용자에게 보여지는 영역)
+label,레이블(라벨에서 수정)
+slider,슬라이더(slide bar의 줄임말)
+swipe,쓸기(터치패드의 화면을 손가락 또는 도구로 누른 채로 이동시켜 화면을 쓰는 행동)
+content,내용(요소에서 수정)
