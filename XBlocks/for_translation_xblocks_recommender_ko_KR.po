@@ -1,12 +1,13 @@
 # 
 # Translators:
 # Jay Oh <theanswer.jay@gmail.com>, 2020
+# Seungheon Shin <gody8756@ajou.ac.kr>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: XBlocks\n"
 "POT-Creation-Date: 2016-05-27 11:04+0500\n"
-"PO-Revision-Date: 2020-07-06 09:33+0000\n"
-"Last-Translator: Jay Oh <theanswer.jay@gmail.com>\n"
+"PO-Revision-Date: 2020-12-19 13:31+0000\n"
+"Last-Translator: Seungheon Shin <gody8756@ajou.ac.kr>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/open-edx/xblocks/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,13 +17,15 @@ msgstr ""
 
 #: recommender.py
 msgid "The resource you are attempting to provide already exists"
-msgstr ""
+msgstr "제공하려는 리소스가 이미 존재합니다."
 
 #: recommender.py
 msgid ""
 "The resource you are attempting to provide has been disallowed by the staff."
 " Reason: "
 msgstr ""
+"제공하려는 리소스가 관리자에 의해 비허용 되었습니다."
+" 이유: "
 
 #: recommender.py
 msgid "The selected resource does not exist"
@@ -38,7 +41,7 @@ msgstr "pyfs 설정이 잘못 되었습니다"
 
 #: recommender.py:729
 msgid "Endorse resource without permission"
-msgstr ""
+msgstr "허가 없이 리소스가 보증되었습니다"
 
 #: recommender.py
 msgid "You don't have the permission to remove this resource"
@@ -52,7 +55,8 @@ msgstr "스태프만 리소스를 불러올 수 있습니다"
 msgid ""
 "Please submit the JSON file obtained with the download resources button"
 msgstr ""
+"리소스 다운로드 버튼으로 얻은 JSON 파일을 제출하세요"
 
 #: recommender.py
 msgid "Tried to access flagged resources without staff permission"
-msgstr ""
+msgstr "표시된 리소스를 관리자의 허가 없이 접근하려고 했습니다"
