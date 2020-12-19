@@ -72,16 +72,27 @@ msgid "Toggles if numeric values are displayed"
 msgstr "숫자로 된 값이 표시되는 지의 여부를 전환합니다"
 ```
 ## 프로젝트 진행 후 결과
+<img src=https://user-images.githubusercontent.com/75475398/102685591-3bd57480-4225-11eb-9394-57d9e1add087.PNG width="70%" height="70%"> 
+<img src=https://user-images.githubusercontent.com/75475398/102685593-3d9f3800-4225-11eb-9000-6699c34b16e8.PNG width="70%" height="70%"> 
 
-## 문제점
-Transifex 시스템 특성 상 Admins, Project Maintainers, Language Coordinators, Reviewers 만이 번역에 대한 평가에 관여할 수 있다. 따라서 원래 프로젝트의 목적 중 하나였던 166개의 미평가 string에 대한 평가를 진행하지 못했다. 후에 관리자에게서 reviewer 권한을 습득한다면 다시 진행할 수 있을 것이다.
+미번역 상태였던 716개의 string을 모두 한국어로 번역하여 번역률이 100%가 된 것을 확인할 수 있다. 
+## 문제점 및 해결방안
+- **번역의 모호함**
+본 프로젝트에서 제시한 번역 규칙에 최대한 준수하여 번역을 진행했지만 단어가 일반적으로 쓰일 때와 정보통신 분야에서 쓰일 때 뜻이 달라지거나, 원문 작성자의 의도에 따라 뜻이 달라지는 등의 여러가지 예외 상황이 존재했다. 개인적인 해석을 배제하고 번역하는 데에 어려움이 생겨 따로 단어 뜻에 대한 텍스트파일을 프로젝트에 추가하여 프로젝트의 특성에 적절한 뜻으로 번역하는 방식을 사용했지만, 문맥에 따라 뜻이 달라지므로 그 한계가 존재했다.
+이는 개인 규모의 프로젝트 일 경우 예외 규칙들을 추가하는 식으로 해결할 수 있겠지만, 프로젝트의 규모가 커질수록 그 복잡성은 더욱 커질 것이다. 따라서 github 혹은 다른 협업 프로젝트 플랫폼에서 적극적으로 issue등을 제시하고 의견을 공유하는 과정이 필수적일 것이다.<br><br>
 
+- **Reviewer 권한**
+Transifex 시스템 특성 상 Admins, Project Maintainers, Language Coordinators, Reviewers 만이 번역에 대한 평가에 관여할 수 있다. 따라서 원래 프로젝트의 목적 중 하나였던 166개의 미평가 string에 대한 평가를 진행하지 못했다. 관리자에게 요청하여 후에 reviewer 권한을 습득한다면 평가를 진행할 수 있을 것이다.<br><br>
+
+- **접근성**
+본 프로젝트는 Transifex 웹에서 번역에 쓰이는 PO 파일을 다운로드 받아 git을 통해 번역을 진행한 후, 다시 파일을 웹에 업로드하는 방식으로 진행되었다. Transifex에서 자체적으로 github integration을 지원하지만 관련 설정을 프로젝트 Admin만이 할 수 있어 번역 진행에 다소 불편함이 있었다. 관리자에게 integration을 요청하여 이후 다른 언어를 번역하는 이용자들에게 도움이 될 수 있을 것이다.
+Transifex는 github 뿐만 아니라 자체적인 웹사이트 혹은 워드프레스 와 연동해서도 번역을 진행할 수 있으므로, 다른 다양한 플랫폼에서 관여할 수 있는 프로젝트를 만드는 것이 가능하다. 
 ## Contact
 신승헌 - gody8756@ajou.ac.kr
 
 Project link: https://github.com/SeungheonShin/Transifex/
 
-XBlocks-Transifex: https://www.transifex.com/open-edx/xblocks/dashboard/
-
 ## Reference
-* [PO file format - Transifex](https://docs.transifex.com/formats/gettext)
+* [XBlocks - Transifex](https://www.transifex.com/open-edx/xblocks/dashboard/)
+* [PO file format - Transifex Help Center](https://docs.transifex.com/formats/gettext)
+* [Understanding of user roles - Transifex Help Center](https://docs.transifex.com/teams/understanding-user-roles)
