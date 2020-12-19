@@ -7,15 +7,16 @@
 # Jong-Dae Park <jdpark7@gmail.com>, 2018
 # shevious <shevious@yahoo.com>, 2018
 # kmooc <shevious@gmail.com>, 2018
-# 
+# Seungheon Shin <gody8756@ajou.ac.kr>, 2020
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-06 15:43+0300\n"
-"PO-Revision-Date: 2018-09-06 12:43+0000\n"
-"Last-Translator: kmooc <shevious@gmail.com>, 2018\n"
+"PO-Revision-Date: 2020-12-19 17:08+0900\n"
+"Last-Translator: Seungheon Shin <gody8756@ajou.ac.kr>, 2020\n"
 "Language-Team: Korean (Korea) (https://www.transifex.com/open-edx/teams/6205/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +30,7 @@ msgstr "표시될 이름"
 
 #: pdf/pdf.py:33
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: pdf/pdf.py:35 pdf/static/html/pdf_edit.html:10
 msgid "This name appears in the horizontal navigation at the top of the page."
@@ -37,49 +38,51 @@ msgstr "상단에 가로로 나타나는 웹페이지의 명칭입니다."
 
 #: pdf/pdf.py:37 pdf/static/html/pdf_edit.html:15
 msgid "PDF URL"
-msgstr ""
+msgstr "PDF URL"
 
 #: pdf/pdf.py:38
 msgid "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
-msgstr ""
+msgstr "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
 
 #: pdf/pdf.py:40 pdf/static/html/pdf_edit.html:18
 msgid "The URL for your PDF."
-msgstr ""
+msgstr "PDF의 URL"
 
 #: pdf/pdf.py:42 pdf/static/html/pdf_edit.html:23
 msgid "PDF Download Allowed"
-msgstr ""
+msgstr "PDF 다운로드 허용됨"
 
 #: pdf/pdf.py:45 pdf/static/html/pdf_edit.html:29
 msgid "Display a download button for this PDF."
-msgstr ""
+msgstr "PDF의 다운로드 버튼을 표시합니다."
 
 #: pdf/pdf.py:47 pdf/static/html/pdf_edit.html:34
 msgid "Source document button text"
-msgstr ""
+msgstr "소스 문서 버튼 텍스트"
 
 #: pdf/pdf.py:50 pdf/pdf.py:55 pdf/static/html/pdf_edit.html:41
 msgid ""
 "Add a download link for the source file of your PDF. Use it for example to "
 "provide the PowerPoint file used to create this PDF."
 msgstr ""
+"PDF의 소스 파일에 대한 다운로드 링크를 추가합니다. 예를 들어 이 PDF를 만드는데 쓰인 "
+"PowerPoint 파일을 제공하는 데에 사용하세요."
 
 #: pdf/pdf.py:52 pdf/static/html/pdf_edit.html:38
 msgid "Source document URL"
-msgstr ""
+msgstr "소스 문서 URL"
 
 #: pdf/static/html/pdf_edit.html:25
 msgid "True"
-msgstr "True"
+msgstr "활성화"
 
 #: pdf/static/html/pdf_edit.html:26
 msgid "False"
-msgstr "False"
+msgstr "비활성화"
 
 #: pdf/static/html/pdf_edit.html:35
 msgid "Default : Download the source document"
-msgstr ""
+msgstr "기본값 : 소스 문서를 다운로드"
 
 #: pdf/static/html/pdf_edit.html:49
 msgid "Save"
@@ -91,12 +94,12 @@ msgstr "취소"
 
 #: pdf/static/html/pdf_view.html:6
 msgid "It appears you don't have a PDF plugin for this browser."
-msgstr ""
+msgstr "PDF 플러그인이 브라우저에 설치되지 않은 경우 나타납니다."
 
 #: pdf/static/html/pdf_view.html:13
 msgid "Download the PDF"
-msgstr ""
+msgstr "PDF 다운로드"
 
 #: pdf/static/html/pdf_view.html:18
 msgid "Download the source document"
-msgstr ""
+msgstr "소스 문서 다운로드"

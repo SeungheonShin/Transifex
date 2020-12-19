@@ -4,10 +4,11 @@
 # Gu Hong Min <placidmoon1@gmail.com>, 2018
 # kmooc <shevious@gmail.com>, 2018
 # Jay Oh <theanswer.jay@gmail.com>, 2020
+# Seungheon Shin <gody8756@ajou.ac.kr>, 2020
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Jay Oh <theanswer.jay@gmail.com>, 2020\n"
+"Last-Translator: Seungheon Shin <gody8756@ajou.ac.kr>, 2020\n"
 "Language-Team: Korean (Korea) (https://www.transifex.com/open-edx/teams/6205/ko_KR/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ko_KR\n"
@@ -27,7 +28,7 @@ msgstr "제출"
 #: poll/public/handlebars/survey_results.handlebars:41
 msgid "Results gathered from {total} respondent."
 msgid_plural "Results gathered from {total} respondents."
-msgstr[0] ""
+msgstr[0] "총 {total}명의 응답자에게서 결과를 얻었습니다."
 
 #: poll/public/handlebars/poll_results.handlebars:37
 #: poll/public/handlebars/survey_results.handlebars:46
@@ -36,11 +37,11 @@ msgstr "피드백"
 
 #: poll/public/handlebars/poll_studio.handlebars:6
 msgid "move poll up"
-msgstr ""
+msgstr "설문지를 위로 이동"
 
 #: poll/public/handlebars/poll_studio.handlebars:7
 msgid "move poll down"
-msgstr ""
+msgstr "설문지를 아래로 이동"
 
 #: poll/public/handlebars/poll_studio.handlebars:9
 msgid "Delete"
@@ -67,6 +68,8 @@ msgid ""
 "You can make limited use of Markdown in answer texts, preferably only bold "
 "and italics."
 msgstr ""
+"답변 텍스트에서 가급적이면 굵은 글씨 혹은 이탤릭체로 제한된 Markdown 문법을 사용할 "
+"수 있습니다."
 
 #: poll/public/handlebars/poll_studio.handlebars:27
 msgid ""
@@ -75,3 +78,6 @@ msgid ""
 " a way that would allow someone to answer the poll if the image did not "
 "load."
 msgstr ""
+"이미지 URL, 텍스트, 또는 둘 모두 가지고 있어야 합니다. 만약 이미지를 "
+"추가한다면, 이미지가 불러오기 되지 않았을 때에도 누군가가 설문에 참여할 수 있도록"
+" 이미지를 설명하는 대체 텍스트를 가지고 있어야 합니다."

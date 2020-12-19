@@ -6,15 +6,16 @@
 # Translators:
 # Jong-Dae Park <jdpark7@gmail.com>, 2018
 # kmooc <shevious@gmail.com>, 2018
-# 
+# Seungheon Shin <gody8756@ajou.ac.kr>, 2020
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-06 13:04+0000\n"
-"PO-Revision-Date: 2018-09-06 13:04+0000\n"
-"Last-Translator: kmooc <shevious@gmail.com>, 2018\n"
+"PO-Revision-Date: 2020-12-19 16:59+0900\n"
+"Last-Translator: Seungheon Shin <gody8756@ajou.ac.kr>, 2020\n"
 "Language-Team: Korean (Korea) (https://www.transifex.com/open-edx/teams/6205/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,19 +25,19 @@ msgstr ""
 
 #: oppia/oppia.py:46
 msgid "Display name of the component"
-msgstr ""
+msgstr "구성요소의 이름 표시하기"
 
 #: oppia/oppia.py:47
 msgid "Oppia Exploration"
-msgstr ""
+msgstr "Oppia Exploration"
 
 #: oppia/oppia.py:50
 msgid "ID of the Oppia exploration to embed"
-msgstr ""
+msgstr "내장할 Oppia Exploration의 ID"
 
 #: oppia/oppia.py:54
 msgid "Source URL of the site"
-msgstr ""
+msgstr "사이트의 소스 URL"
 
 #: oppia/templates/oppia_edit.html:6
 msgid "Component Display Name"
@@ -47,24 +48,25 @@ msgid ""
 "The name students see. This name appears in the course ribbon and as a "
 "header for the Oppia exploration."
 msgstr ""
+"학생이 보는 이름. 이 이름은 강의 리본과 Oppia Exploration의 머리글에 나타납니다."
 
 #: oppia/templates/oppia_edit.html:13
 msgid "Oppia Exploration ID"
-msgstr ""
+msgstr "Oppia Exploration ID"
 
 #: oppia/templates/oppia_edit.html:16
 #, python-format
 msgid "Example: %(example)s"
-msgstr ""
+msgstr "예시: %(example)s"
 
 #: oppia/templates/oppia_edit.html:20
 msgid "Oppia Server URL"
-msgstr ""
+msgstr "Oppia Server URL"
 
 #: oppia/templates/oppia_edit.html:23
 #, python-format
 msgid "Example: %(url)s"
-msgstr ""
+msgstr "예시: %(url)s"
 
 #: oppia/templates/oppia_edit.html:29
 msgid "Save"
@@ -76,7 +78,7 @@ msgstr "취소"
 
 #: oppia/templates/oppia_preview.html:4
 msgid "This XBlock does not have an inline Studio preview."
-msgstr ""
+msgstr "이 XBlock은 인라인 Studio 미리보기를 지원하지 않습니다."
 
 #: oppia/templates/oppia_preview.html:8
 #, python-format
@@ -84,3 +86,4 @@ msgid ""
 "It is an embedded version of the Oppia exploration with id '%(oppiaid)s' "
 "located at %(src)s"
 msgstr ""
+"%(src)s에 위치한 id '%(oppiaid)s'의 Oppia exploration의 내장된 버전입니다"
