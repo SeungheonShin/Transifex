@@ -1,11 +1,12 @@
 # 
 # Translators:
 # Jay Oh <theanswer.jay@gmail.com>, 2020
+# Seungheon Shin <gody8756@ajou.ac.kr>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: XBlocks\n"
 "POT-Creation-Date: 2016-03-16 15:27+0500\n"
-"PO-Revision-Date: 2020-11-29 04:51+0000\n"
+"PO-Revision-Date: 2020-12-19 13:39+0000\n"
 "Last-Translator: Seungheon Shin <gody8756@ajou.ac.kr>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/open-edx/xblocks/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -24,6 +25,9 @@ msgid ""
 " means examples are selected at random and may not include different answer "
 "possibilities."
 msgstr ""
+"\"간단히\"는 학생이 동료의 답변을 볼 때 의도적으로 선택한 다양한 답변 "
+"가능성의 예시를 뜻합니다.<br>\"무작위\"는 무작위로 예시가 선택되며 다양한 답변 "
+"가능성을 포함하지 않을 수 있다는 뜻입니다."
 
 #: ubcpi/static/js/partials/ubcpi-answer-result.html:8
 msgid "(You chose this option)"
@@ -35,11 +39,11 @@ msgstr "(귀하를 포함)"
 
 #: ubcpi/static/html/ubcpi.html:161 ubcpi/static/html/ubcpi.html:9
 msgid "({{weight}} point possible)"
-msgstr ""
+msgstr "({{weight}}점 획득 가능)"
 
 #: ubcpi/static/html/ubcpi.html:10 ubcpi/static/html/ubcpi.html:162
 msgid "({{weight}} points possible)"
-msgstr ""
+msgstr "({{weight}}점 획득 가능)"
 
 #: ubcpi/static/html/ubcpi.html:177 ubcpi/static/html/ubcpi.html:179
 #: ubcpi/static/html/ubcpi.html:35
@@ -54,7 +58,7 @@ msgstr ", 진행 중"
 #: ubcpi/static/html/ubcpi.html:28 ubcpi/static/html/ubcpi.html:30
 #: ubcpi/static/html/ubcpi.html:39
 msgid ", Upcoming"
-msgstr ""
+msgstr ", 곧 진행예정"
 
 #: ubcpi/static/html/ubcpi_edit.html:39
 msgid "Add Image To Question"
@@ -74,12 +78,15 @@ msgid ""
 "likely to see these answers are those completing the assignment first, when "
 "the answer pool is small."
 msgstr ""
+"답변 풀에 예시 답변을 추가합니다. 답변 풀이 작을 때 처음 평가를 완료한 학생이 "
+"이 답변들을 볼 가능성이 높습니다."
 
 #: ubcpi/static/html/ubcpi_edit.html:87
 msgid ""
 "Add the text for this answer. If you wish to add an image, press the button "
 "below."
 msgstr ""
+"이 답변에 대한 텍스트를 추가하세요. 이미지를 추가하고 싶다면, 아래의 버튼을 누르세요."
 
 #: ubcpi/static/html/ubcpi_edit.html:97
 msgid ""
@@ -87,6 +94,9 @@ msgid ""
 "description should provide all the information needed for someone to answer "
 "the question if the image did not load."
 msgstr ""
+"대체 텍스트 - 이미지를 볼 수 없는 사용자들을 위한 설명. 설명은 "
+"이미지가 불러오기 되지 않았을 때에도 누군가가 질문에 대한 답변을 할 때 "
+"필요한 모든 정보를 제공해야 합니다."
 
 #: ubcpi/static/html/ubcpi.html:177 ubcpi/static/html/ubcpi.html:26
 #: ubcpi/static/html/ubcpi.html:35
@@ -99,11 +109,11 @@ msgstr "답 {{$index + 1}}"
 
 #: ubcpi/static/html/ubcpi_edit.html:140
 msgid "Answers Students See - Number Selected <font color=\"red\">*</font>"
-msgstr ""
+msgstr "학생들이 보는 답 - 선택된 숫자 <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi_edit.html:132
 msgid "Answers Students See - Selection Logic <font color=\"red\">*</font>"
-msgstr ""
+msgstr "학생들이 보는 답 - 선택 논리 <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi.html:118 ubcpi/static/html/ubcpi_edit.html:194
 msgid "Cancel"
@@ -116,91 +126,94 @@ msgstr ""
 
 #: ubcpi/static/html/ubcpi_edit.html:50
 msgid "Choose if you want the image to appear above or below the question."
-msgstr ""
+msgstr "이미지가 질문 위 또는 아래에 나타나기를 원한다면 선택하세요."
 
 #: ubcpi/static/html/ubcpi_edit.html:115
 msgid ""
 "Choose the answer you consider correct, or select \"n/a\" if there is no "
 "correct answer."
 msgstr ""
+"정답이라고 생각한 답변을 선택하거나, 정답이 없다면 \"n/a\"를 선택하세요."
 
 #: ubcpi/static/html/ubcpi_edit.html:158
 msgid "Choose the answer."
-msgstr ""
+msgstr "답변을 선택하세요."
 
 #: ubcpi/static/js/src/ubcpi-barchart-directive.js:81
 msgid "Chose after revision"
-msgstr ""
+msgstr "수정 후 선택"
 
 #: ubcpi/static/js/src/ubcpi-barchart-directive.js:81
 msgid "Chose initially"
-msgstr ""
+msgstr "처음으로 선택"
 
 #: ubcpi/static/html/ubcpi_edit.html:114
 msgid "Correct Answer <font color=\"red\">*</font>"
-msgstr ""
+msgstr "정답 <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi.html:138 ubcpi/static/html/ubcpi.html:204
 msgid "Correct Answer:"
-msgstr ""
+msgstr "정답:"
 
 #: ubcpi/static/js/partials/ubcpi-answer-result.html:7
 msgid "Correct Option"
-msgstr ""
+msgstr "채점 설정"
 
 #: ubcpi/static/html/ubcpi_edit.html:28
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set,"
 " the problem is worth the sum of the option point values."
 msgstr ""
+"각 문제의 가치를 숫자로 정의합니다. 만약 값이 설정되지 않았다면,"
+" 문제는 설정 점수의 총 합의 가치를 가집니다."
 
 #: ubcpi/static/html/ubcpi_edit.html:18
 msgid "Display Name <font color=\"red\">*</font>"
-msgstr ""
+msgstr "표시 이름 <font color=\"red\">*</font>"
 
 #: ubcpi/static/js/src/ubcpi.js:124
 msgid "Error refreshing answers from other students"
-msgstr ""
+msgstr "다른 학생의 답변을 새로고치는 중 오류가 발생했습니다"
 
 #: ubcpi/static/js/src/ubcpi.js:295
 msgid "Error retrieving data!"
-msgstr ""
+msgstr "데이터 검색 중 오류가 발생했습니다!"
 
 #: ubcpi/static/js/src/ubcpi.js:283
 msgid "Error retrieving statistics!"
-msgstr ""
+msgstr "통계 검색 중 오류가 발생했습니다!"
 
 #: ubcpi/static/js/src/ubcpi_edit.js:163
 msgid "Error saving question"
-msgstr ""
+msgstr "문제 저장 중 오류가 발생했습니다"
 
 #: ubcpi/static/js/src/ubcpi.js:260
 msgid "Error submitting answer!"
-msgstr ""
+msgstr "답변 제출 중 오류가 발생했습니다!"
 
 #: ubcpi/static/html/ubcpi_edit.html:157
 msgid "Example Answer {{$index + 1}}"
-msgstr ""
+msgstr "예시 답변 {{$index + 1}}"
 
 #: ubcpi/static/html/ubcpi_edit.html:150
 msgid "Example Answers <font color=\"red\">*</font>"
-msgstr ""
+msgstr "예시 답변 <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi.html:80
 msgid "Explain to other students why you chose this answer (required):"
-msgstr ""
+msgstr "왜 이 답변을 선택했는 지 다른 학생들에게 설명합니다 (필수):"
 
 #: ubcpi/static/html/ubcpi_edit.html:163
 msgid "Explanation"
-msgstr ""
+msgstr "설명"
 
 #: ubcpi/static/html/ubcpi_edit.html:122
 msgid "Explanation (optional)"
-msgstr ""
+msgstr "설명 (선택적)"
 
 #: ubcpi/static/html/ubcpi_edit.html:121
 msgid "Explanation <font color=\"red\">*</font>"
-msgstr ""
+msgstr "설명 <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi_edit.html:12
 msgid ""
@@ -211,40 +224,46 @@ msgid ""
 "Finally, the learner sees the correct answer, if supplied, and any "
 "explanation that you provided for it."
 msgstr ""
+"먼저, 학습자가 객관식 문제를 풀고 답변에 대한 설명을 제공합니다. 그 다음, 다른 "
+"학습자가 제출한 답변과 설명들을 확인합니다. 동료의 응답과 비교한 뒤, 학습자는 "
+"답변을 수정하고 최종 답변과 설명을 제출할 수 있습니다. 최종적으로, 학습자는 "
+"정답이 제공된 경우 정답과 제공된 설명을 확인할 수 있습니다."
 
 #: ubcpi/static/html/ubcpi.html:99
 msgid ""
 "In the next step, you will be shown a selection of other responses that may "
 "help you refine your answer."
 msgstr ""
+"다음 단계에서, 답변을 수정하는 데에 도움이 될 수 있도록 다른 응답에 대한 선택을 "
+"볼 수 있습니다."
 
 #: ubcpi/static/html/ubcpi_edit.html:69
 msgid "Maximum Characters <font color=\"red\">*</font>"
-msgstr ""
+msgstr "최대 글자 수 <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi_edit.html:62
 msgid "Minimum Characters <font color=\"red\">*</font>"
-msgstr ""
+msgstr "최소 글자 수 <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi.html:104
 msgid "Next Step"
-msgstr ""
+msgstr "다음 단계"
 
 #: ubcpi/static/js/src/d3-pibar.js:189 ubcpi/static/js/src/d3-pibar.js:36
 msgid "Not enough data to generate the chart. Please check back later."
-msgstr ""
+msgstr "표를 생성하기에 데이터가 충분하지 않습니다. 나중에 다시 확인해주세요."
 
 #: ubcpi/static/html/ubcpi.html:89
 msgid "Note:"
-msgstr ""
+msgstr "주의:"
 
 #: ubcpi/static/js/partials/ubcpi-answer-result.html:6
 msgid "Option {{ $index + 1 }}"
-msgstr ""
+msgstr "설정 {{ $index + 1 }}"
 
 #: ubcpi/static/html/ubcpi_edit.html:10
 msgid "Peer Instruction"
-msgstr ""
+msgstr "동료 지시"
 
 #: ubcpi/static/html/ubcpi_edit.html:11
 msgid ""
@@ -254,15 +273,17 @@ msgid ""
 "understanding of a concept and the correctness (if applicable) of an initial"
 " answer. Learners complete these problems in three steps."
 msgstr ""
+"동료 지시 문제는 학습자에게 객관식 문제에 정답이 있을 지 없을 지 풀이하는 데에 있어 "
+"보다 상호작용적인 참여를 제공합니다."
 
 #: ubcpi/static/js/src/ubcpi.js:125 ubcpi/static/js/src/ubcpi.js:261
 #: ubcpi/static/js/src/ubcpi.js:284 ubcpi/static/js/src/ubcpi.js:296
 msgid "Please refresh the page and try again!"
-msgstr ""
+msgstr "페이지를 새로고침 한 후 다시 시도해주세요!"
 
 #: ubcpi/static/html/ubcpi_edit.html:80
 msgid "Possible Answers <font color=\"red\">*</font>"
-msgstr ""
+msgstr "예상 답변 <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi_edit.html:28 ubcpi/ubcpi.py:291
 msgid "Problem Weight"
@@ -274,35 +295,38 @@ msgid ""
 "The description should provide all the information needed for someone to "
 "answer the question if the image did not load."
 msgstr ""
+"대체 텍스트를 제공합니다 - 이미지를 볼 수 없는 사용자들을 위한 설명. "
+"설명은 이미지가 불러오기 되지 않았을 때에도 누군가가 질문에 대한 답변을 할 때 "
+"필요한 모든 정보를 제공해야 합니다."
 
 #: ubcpi/static/html/ubcpi_edit.html:164
 msgid "Provide an explanation for this answer."
-msgstr ""
+msgstr "이 답변에 설명을 제공합니다."
 
 #: ubcpi/static/html/ubcpi.html:12 ubcpi/static/html/ubcpi.html:164
 msgid "Question"
-msgstr ""
+msgstr "문제"
 
 #: ubcpi/static/html/ubcpi_edit.html:36
 msgid "Question Text <font color=\"red\">*</font>"
-msgstr ""
+msgstr "문제 텍스트 <font color=\"red\">*</font>"
 
 #: ubcpi/static/html/ubcpi.html:179 ubcpi/static/html/ubcpi.html:28
 #: ubcpi/static/html/ubcpi.html:37
 msgid "Reflection"
-msgstr ""
+msgstr "비교"
 
 #: ubcpi/static/js/src/ubcpi.js:114
 msgid "Refreshing..."
-msgstr ""
+msgstr "새로고침 중..."
 
 #: ubcpi/static/html/ubcpi_edit.html:161 ubcpi/static/html/ubcpi_edit.html:90
 msgid "Remove"
-msgstr ""
+msgstr "제거하기"
 
 #: ubcpi/static/html/ubcpi_edit.html:42
 msgid "Remove Image"
-msgstr ""
+msgstr "이미지 제거하기"
 
 #: ubcpi/static/html/ubcpi.html:181 ubcpi/static/html/ubcpi.html:30
 #: ubcpi/static/html/ubcpi.html:39
@@ -311,51 +335,55 @@ msgstr "결과"
 
 #: ubcpi/static/html/ubcpi.html:117
 msgid "Revise Answer"
-msgstr ""
+msgstr "답변 수정하기"
 
 #: ubcpi/static/html/ubcpi_edit.html:190
 msgid "Save"
-msgstr ""
+msgstr "저장하기"
 
 #: ubcpi/static/js/src/ubcpi_edit.js:159
 msgid "Saving"
-msgstr ""
+msgstr "저장 중"
 
 #: ubcpi/static/js/src/ubcpi.js:113
 msgid "Show other samples"
-msgstr ""
+msgstr "다른 예시 보기"
 
 #: ubcpi/static/html/ubcpi.html:48
 msgid ""
 "Step 1) Give Initial Answer <span class=\"inline-hint\">You can change this "
 "answer later, if you change your mind.</span>"
 msgstr ""
+"단계 1) 최초로 답변하기 <span class=\"inline-hint\">나중에 생각이 바뀐다면, "
+"이 답변을 수정할 수 있습니다.</span>"
 
 #: ubcpi/static/html/ubcpi.html:49
 msgid ""
 "Step 2) Read Other Student Answers\n"
 "                            <p class=\"ubcpi-other-answers-instructions\" translate=\"\">These are randomly chosen samples of other student answers for this question. Read them and compare with your answer below. Then you may revise your answer, if you wish.</p>"
 msgstr ""
+"단계 2) 다른 학생의 답변 보기\n"
+"                            <p class=\"ubcpi-other-answers-instructions\" translate=\"\">이 문제에 대한 다른 학생들의 답변의 무작위 샘플입니다. 확인하고 아래에 있는 당신의 답변과 비교하세요. 그 다음 원한다면 답변을 수정할 수 있습니다.</p>"
 
 #: ubcpi/static/html/ubcpi.html:192
 msgid "Step 3) View Course-Wide Results"
-msgstr ""
+msgstr "단계 3) 강의 전체의 결과 보기"
 
 #: ubcpi/static/html/ubcpi.html:68
 msgid "Student Rationale"
-msgstr ""
+msgstr "학생의 근거"
 
 #: ubcpi/static/html/ubcpi_edit.html:123
 msgid "Students see the explanation after seeing the final answer."
-msgstr ""
+msgstr "학생이 최종 답변을 본 뒤에 설명을 확인합니다."
 
 #: ubcpi/static/html/ubcpi.html:119
 msgid "Submit Answer"
-msgstr ""
+msgstr "답변 제출"
 
 #: ubcpi/static/js/src/ubcpi.js:254
 msgid "Submitting"
-msgstr "Submitting"
+msgstr "제출 중"
 
 #: ubcpi/static/html/ubcpi_edit.html:81
 msgid ""
@@ -365,6 +393,10 @@ msgid ""
 "Answer\" button. To remove an answer press the blue \"x\" next to the blue "
 "option you want to remove."
 msgstr ""
+"답변이 문제 당 최대 10개 씩 문제 아래에 선택형으로 나타납니다. 각 문제는 텍스트, "
+"이미지, 또는 둘의 조합을 포함합니다. <br><br>다른 답변을 추가하려면 \"새로운 답변 "
+"추가\"버튼을 누르세요. 답변을 제거하려면 제거하고 싶은 파란색 설정 옆에 있는 "
+"파란색 \"x\" 버튼을 누르세요."
 
 #: ubcpi/static/html/ubcpi_edit.html:37
 msgid ""
@@ -372,6 +404,9 @@ msgid ""
 "use text, an image, or a combination of both. If you wish to add an image to"
 " your question, press the \"Add Image To Question\" button."
 msgstr ""
+"아래에 설정한 가능한 답변들 위에 문제가 나타납니다. 텍스트, 이미지, 또는 둘의 조합을 "
+"사용할 수 있습니다. 만약 문제에 이미지를 추가하고 싶다면, \"문제에 이미지 추가하기\" "
+"버튼을 누르세요."
 
 #: ubcpi/static/html/ubcpi.html:50
 msgid ""
@@ -379,24 +414,29 @@ msgid ""
 "question. Read them and compare with your answer below. Then you may revise "
 "your answer, if you wish."
 msgstr ""
+"이 문제에 대한 다른 학생들의 답변의 무작위 샘플입니다. 확인하고 아래에 있는 당신의 답변과 "
+"비교하세요. 만약 원한다면, 답변을 수정할 수 있습니다."
 
 #: ubcpi/static/html/ubcpi.html:193
 msgid ""
 "This is a look at how your classmates answered the question initially and "
 "after revision."
 msgstr ""
+"학우들이 질문에 대해 처음에 그리고 수정 후에 어떻게 답변했는지에 대한 것입니다."
 
 #: ubcpi/static/html/ubcpi_edit.html:70
 msgid ""
 "This is the maximum number of characters the student explanations may "
 "contain."
 msgstr ""
+"학생의 설명이 포함할 수 있는 최대 글자 수 입니다."
 
 #: ubcpi/static/html/ubcpi_edit.html:63
 msgid ""
 "This is the minimum number of characters the student explanations must "
 "contain."
 msgstr ""
+"학생의 설명이 포함할 수 있는 최소 글자 수 입니다."
 
 #: ubcpi/static/html/ubcpi_edit.html:141
 msgid ""
@@ -404,142 +444,153 @@ msgid ""
 "answer. Students can choose to refresh for some other samples. Enter the # "
 "symbol to use the same number as the answer possibilities you've set."
 msgstr ""
+"학생이 답변 후 화면에 보여지는 예시의 개수 입니다. 학생은 다른 샘플을 보기 위해 "
+"새로 고침을 할 수 있습니다. # 문자를 입력하여 설정한 답변 가능성과 같은 숫자를 "
+"사용할 수 있습니다."
 
 #: ubcpi/static/html/ubcpi_edit.html:19
 msgid "This name appears in the horizontal navigation at the top of the page."
-msgstr ""
+msgstr "이 이름은 페이지 상단의 수평 탐색영역에 나타납니다."
 
 #: ubcpi/static/html/ubcpi_edit.html:48 ubcpi/static/html/ubcpi_edit.html:93
 msgid ""
 "Upload a file first by clicking Content, then Files and Uploads. Then copy "
 "the Studio URL. Paste that into the text field here."
 msgstr ""
+"파일을 업로드하려면 목차를 클릭 한 뒤, 파일과 업로드를 클릭하세요. 그 다음 "
+"Studio URL을 복사하세요. 그 다음 여기에 있는 텍스트 영역에 붙여넣으세요."
 
 #: ubcpi/static/html/ubcpi.html:130
 msgid "View Question Statistics"
-msgstr ""
+msgstr "문제 통계 보기"
 
 #: ubcpi/static/html/ubcpi.html:88
 msgid "Warning"
-msgstr ""
+msgstr "경고"
 
 #: ubcpi/static/html/ubcpi.html:115
 msgid "What would you like to do?"
-msgstr ""
+msgstr "무엇을 하시겠습니까?"
 
 #: ubcpi/static/html/ubcpi.html:82
 msgid ""
 "You are approaching the limit of {{rationale_size.max}} characters for this "
 "answer. Characters left: {{rationale_size.max - rc.rationale.length}}"
 msgstr ""
+"이 답변의 글자 한계치인 {{rationale_size.max}}개에 근접하고 있습니다. 남은 "
+"글자 수: {{rationale_size.max - rc.rationale.length}}"
 
 #: ubcpi/static/html/ubcpi_edit.html:188
 msgid "You are unable to save this form as there are errors:"
-msgstr ""
+msgstr "다음의 오류들로 인해 이 양식을 저장할 수 없습니다:"
 
 #: ubcpi/static/html/ubcpi.html:112
 msgid "You:"
-msgstr ""
+msgstr "당신:"
 
 #: ubcpi/static/html/ubcpi.html:90
 msgid ""
 "Your explanation must be at least {{rationale_size.min}} characters long. "
 "Please explain further."
 msgstr ""
+"답변의 글자 수가 최소 {{rationale_size.min}}개 이어야 합니다. "
+"더 많이 설명을 해주세요."
 
 #: ubcpi/static/html/ubcpi.html:91
 msgid ""
 "Your explanation must contain fewer than {{rationale_size.max}} characters. "
 "Please trim the text."
 msgstr ""
+"답변의 글자 수가 최대 {{rationale_size.max}}개 이어야 합니다. "
+"텍스트를 간소화해주세요."
 
 #: ubcpi/static/html/ubcpi.html:218
 msgid "Your final explanation:"
-msgstr ""
+msgstr "최종 답변:"
 
 #: ubcpi/answer_pool.py:128
 msgid "Option "
-msgstr ""
+msgstr "설정 "
 
 #: ubcpi/answer_pool.py:132
 msgid "Missing option seed(s): "
-msgstr ""
+msgstr "설정 시드 없음:"
 
 #: ubcpi/answer_pool.py:148
 msgid "Missing 1 option seed"
-msgstr ""
+msgstr "1개의 설정 시드 없음"
 
 #: ubcpi/serialize.py:95
 msgid "Question must have text element."
-msgstr ""
+msgstr "문제는 텍스트 요소를 포함해햐 합니다."
 
 #: ubcpi/serialize.py:131
 msgid "Missing options elements in XML definition"
-msgstr ""
+msgstr "XML 정의 요소에서 설정 없음"
 
 #: ubcpi/serialize.py:139
 msgid "Option must have text element."
-msgstr ""
+msgstr "설정은 텍스트 요소를 포함해야 합니다."
 
 #: ubcpi/serialize.py:151
 msgid "Missing rationale for correct answer."
-msgstr ""
+msgstr "정답에 대한 근거가 없습니다."
 
 #: ubcpi/serialize.py:153
 msgid "Only one correct answer can be defined in options."
-msgstr ""
+msgstr "단 하나의 정답이 설정에서 정의될 수 있습니다."
 
 #: ubcpi/serialize.py:191
 msgid "Seed element must have an option attribute."
-msgstr ""
+msgstr "시드 요소는 설정 속성을 포함해야 합니다."
 
 #: ubcpi/serialize.py:217
 msgid "Every peer instruction tool must contain an \"ubcpi\" element."
-msgstr ""
+msgstr "모든 동료 지시 도구는 \"ubcpi\" 요소를 포함해야 합니다."
 
 #: ubcpi/serialize.py:221
 msgid "Every peer instruction tool must contain a \"display_name\" element."
-msgstr ""
+msgstr "모든 동료 지시 도구는 \"display_name\" 요소를 포함해야 합니다."
 
 #: ubcpi/serialize.py:230
 msgid "Every peer instruction must tool contain a \"question\" element."
-msgstr ""
+msgstr "모든 동료 지시 도구는 \"dquestion\" 요소를 포함해야 합니다."
 
 #: ubcpi/serialize.py:236
 msgid "Every peer instruction must tool contain a \"options\" element."
-msgstr ""
+msgstr "모든 동료 지시 도구는 \"options\" 요소를 포함해야 합니다."
 
 #: ubcpi/serialize.py:242
 msgid "Every peer instruction must tool contain a \"seeds\" element."
-msgstr ""
+msgstr "모든 동료 지시 도구는 \"seeds\" 요소를 포함해야 합니다."
 
 #: ubcpi/ubcpi.py:66 ubcpi/ubcpi.py:69 ubcpi/ubcpi.py:71
 msgid "Minimum Characters"
-msgstr ""
+msgstr "최소 글자 수"
 
 #: ubcpi/ubcpi.py:68 ubcpi/ubcpi.py:69 ubcpi/ubcpi.py:71
 msgid "Maximum Characters"
-msgstr ""
+msgstr "최대 글자 수"
 
 #: ubcpi/ubcpi.py:74
 msgid "Number of Responses"
-msgstr ""
+msgstr "응답 수"
 
 #: ubcpi/ubcpi.py:76
 msgid "Not an Integer"
-msgstr ""
+msgstr "정수가 아님"
 
 #: ubcpi/ubcpi.py:81
 msgid "Invalid Option(s): "
-msgstr ""
+msgstr "옵션 사용 불가:"
 
 #: ubcpi/ubcpi.py:192
 msgid "Peer Instruction Question"
-msgstr ""
+msgstr "동료 지시 문제"
 
 #: ubcpi/ubcpi.py:195
 msgid "<p>Where does most of the mass in a fully grown tree originate?</p>"
-msgstr ""
+msgstr "<p>전부 자란 나무의 대부분의 질량은 어디에서 비롯됩니까?</p>"
 
 #: ubcpi/ubcpi.py:198
 msgid ""
@@ -548,109 +599,117 @@ msgid ""
 "both. If you wish to add an image to your question, press the 'Add Image' "
 "button."
 msgstr ""
+"학생이 보는 문제. 이 문제는 아래에 설정한 가능한 답변들 위에 나타납니다. 텍스트, "
+"이미지, 또는 둘의 조합을 사용할 수 있습니다. 만약 문제에 이미지를 추가하고 싶다면, "
+"'이미지 추가하기' 버튼을 누르세요."
 
 #: ubcpi/ubcpi.py:205
 msgid "Air"
-msgstr ""
+msgstr "공기"
 
 #: ubcpi/ubcpi.py:206
 msgid "Soil"
-msgstr ""
+msgstr "토양"
 
 #: ubcpi/ubcpi.py:207
 msgid "Water"
-msgstr ""
+msgstr "물"
 
 #: ubcpi/ubcpi.py:210
 msgid "The possible options from which the student may select"
-msgstr ""
+msgstr "학생이 선택할 수 있는 가능한 설정들"
 
 #: ubcpi/ubcpi.py:215
 msgid ""
 "The minimum and maximum number of characters a student is allowed for their "
 "rationale."
 msgstr ""
+"학생에게 허용된 근거의 최소와 최대 글자 수."
 
 #: ubcpi/ubcpi.py:220
 msgid "The correct option for the question"
-msgstr ""
+msgstr "문제에 대한 정답 설정"
 
 #: ubcpi/ubcpi.py:224
 msgid "Photosynthesis"
-msgstr ""
+msgstr "광합성"
 
 #: ubcpi/ubcpi.py:225
 msgid "The feedback for student for the correct answer"
-msgstr ""
+msgstr "정답에 대한 학생의 피드백"
 
 #: ubcpi/ubcpi.py:230
 msgid "Overall stats for the instructor"
-msgstr ""
+msgstr "강사의 전반적인 통계"
 
 #: ubcpi/ubcpi.py:234
 msgid "Tree gets carbon from air."
-msgstr ""
+msgstr "나무는 공기에서 탄소를 얻는다."
 
 #: ubcpi/ubcpi.py:235
 msgid "Tree gets minerals from soil."
-msgstr ""
+msgstr "나무는 토양에서 미네랄을 얻는다."
 
 #: ubcpi/ubcpi.py:236
 msgid "Tree drinks water."
-msgstr ""
+msgstr "나무는 물을 섭취한다."
 
 #: ubcpi/ubcpi.py:239
 msgid ""
 "Instructor configured examples to give to students during the revise stage."
 msgstr ""
+"강사가 학생에게 수정 단계에서 제공할 예시들을 구성했습니다."
 
 #: ubcpi/ubcpi.py:253
 msgid "System selected answers to give to students during the revise stage."
-msgstr ""
+msgstr "시스템이 학생에게 수정 단계에서 제공할 답변을 선택했습니다."
 
 #: ubcpi/ubcpi.py:258
 msgid ""
 "Stores the specific answers of other students shown, for a given student."
 msgstr ""
+"선택된 학생들을 위해 다른 학생들의 특정한 답변들을 저장합니다."
 
 #: ubcpi/ubcpi.py:263
 msgid ""
 "In case the student requested to see more answers, these are the answers "
 "previously shown."
 msgstr ""
+"학생이 다른 답변을 더 보기를 요청했을 때를 위해, 이전에 표시된 답변들입니다."
 
 #: ubcpi/ubcpi.py:268
 msgid "Keep track of the number of refreshes for each option"
-msgstr ""
+msgstr "각 설정에 대한 새로고침 횟수 추적하기"
 
 #: ubcpi/ubcpi.py:273
 msgid "The algorithm for selecting which answers to be presented to students"
-msgstr ""
+msgstr "학생에게 보여질 답변을 선택하는 알고리즘"
 
 #: ubcpi/ubcpi.py:280
 msgid ""
 "ISO-8601 formatted string representing the start date of this assignment. We"
 " ignore this."
 msgstr ""
+"이 평가의 시작 날짜를 표시하는 ISO-8601 형식의 문자열. 무시하면 됩니다."
 
 #: ubcpi/ubcpi.py:285
 msgid ""
 "ISO-8601 formatted string representing the due date of this assignment. We "
 "ignore this."
-msgstr ""
+msgstr "이 평가의 마감 날짜를 표시하는 ISO-8601 형식의 문자열. 무시하면 됩니다."
 
 #: ubcpi/ubcpi.py:380
 msgid "System will select one of each option to present to the students."
-msgstr ""
+msgstr "시스템이 학생에게 보여줄 설정 하나를 선택할 것입니다."
 
 #: ubcpi/ubcpi.py:381
 msgid "Completely random selection from the response pool."
-msgstr ""
+msgstr "응답 풀에서 완전히 무작위로 선택"
 
 #: ubcpi/ubcpi.py:384
 msgid "Appears above"
-msgstr ""
+msgstr "위에 나타남"
 
 #: ubcpi/ubcpi.py:385
 msgid "Appears below"
-msgstr ""
+msgstr "아래에 나타남"
